@@ -1,0 +1,151 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    .header img{
+        width: 30%;
+        align-content: center;
+        margin-left: 500px;
+    }
+
+
+
+    /*   */
+
+
+    .trend ul {
+        display: flex;
+        list-style-type: none;
+        margin-left: 150px;
+        padding: 0;
+        overflow: hidden;
+      
+      }
+      
+    .trend ul li {
+        float: left;
+      }
+      
+    .trend li a {
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+
+
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #257bbe;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      
+      .navbar li {
+        float: left;
+      }
+      
+      .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        margin-left: 28px;
+      }
+      
+      .navbar li a:hover {
+        text-decoration: underline 2px black;
+      }
+
+      .add{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        ;
+      }
+
+      .news{
+        width: 80%;
+        margin: auto;
+
+        flex-direction: row;
+      }
+      
+      .one{
+        flex-basis: 25%;
+        position: relative;
+        height: 719px;
+        width: 400px;
+        overflow: hidden;
+        margin-left: 5px;
+       
+        float: left;
+      }
+      
+      .one img{
+        width: 100%;
+        display: block;
+      }
+      .one h4 {
+        margin-top: 5px;
+        margin-left: 5px;
+        size: 10px;
+
+      }
+
+      .one p{
+        margin-top: 5px;
+        margin-left: 5px;
+
+      }
+
+      .top
+      {
+        flex-basis: 25%;
+        position: relative;
+        height: 819px;
+        width: 500px;
+        overflow: hidden;
+        margin-left: 5px;
+        margin-bottom: 5px;
+       
+        float: left;
+      }
+
+      .top h1{
+        color: #257bbe;
+        font-size: 20px;
+        margin-left: 5px ;
+        margin-top: 5px;
+      }
+     
+      .ship{
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+
+      }
+
+      .ship h4{
+        font-size: 20px;
+        margin-left: 5px;
+      }
+      .addin img{
+        flex-basis: 20%;
+        position: relative;
+       margin-top: 10px;
+
+        float: right;
+       
+      }
